@@ -72,19 +72,19 @@
           <div class="sm:col-span-2">
             <label for="full_name" class="block text-sm font-medium leading-5 text-gray-700">Navn</label>
             <div class="mt-1 relative rounded-md shadow-sm">
-              <input id="full_name" type="text" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
+              <input id="full_name" name="full_name" type="text" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
             </div>
           </div>
           <div class="sm:col-span-2">
             <label for="zip_code" class="block text-sm font-medium leading-5 text-gray-700">Postnummer</label>
             <div class="mt-1 relative rounded-md shadow-sm">
-              <input id="zip_code" type="text" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
+              <input id="zip_code" name="zip_code" type="text" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
             </div>
           </div>
           <div class="sm:col-span-2">
             <label for="email" class="block text-sm font-medium leading-5 text-gray-700">Email</label>
             <div class="mt-1 relative rounded-md shadow-sm">
-              <input id="email" type="email" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
+              <input id="email" name="email" type="email" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
             </div>
           </div>
           <div class="sm:col-span-2">
