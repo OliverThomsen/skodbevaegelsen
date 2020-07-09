@@ -1,12 +1,9 @@
 <template>
   <main>
     <Header />
-    <Hero />
-    <Facts class="my-24" />
-    <Bodil />
     <Companies />
     <Signup id="signup" />
-    <GetStarted />
+    <Facts class="my-24" />
     <Whoarewe />
     <Footer />
   </main>
