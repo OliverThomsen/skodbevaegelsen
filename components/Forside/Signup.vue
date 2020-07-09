@@ -60,17 +60,25 @@
         </button>
       </div>
       <div class="mt-12">
-        <form name="sign-up" method="POST" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8" netlify>
+        <form
+          action="/tak-for-din-tilmelding"
+          name="sign-up"
+          method="POST"
+          class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8"
+          netlify
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="sign-up">
           <div class="sm:col-span-2">
             <label for="full_name" class="block text-sm font-medium leading-5 text-gray-700">Navn</label>
             <div class="mt-1 relative rounded-md shadow-sm">
-              <input id="full_name" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
+              <input id="full_name" type="text" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
             </div>
           </div>
           <div class="sm:col-span-2">
             <label for="zip_code" class="block text-sm font-medium leading-5 text-gray-700">Postnummer</label>
             <div class="mt-1 relative rounded-md shadow-sm">
-              <input id="zip_code" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
+              <input id="zip_code" type="text" class="form-input py-3 px-4 block w-full transition ease-in-out duration-150">
             </div>
           </div>
           <div class="sm:col-span-2">
@@ -104,7 +112,7 @@
           </div>
           <div class="sm:col-span-2">
             <span class="w-full inline-flex rounded-md shadow-sm">
-              <button type="button" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-hh-primary focus:outline-none focus:border-hh-primary focus:shadow-outline-hh-primary active:bg-hh-primary transition ease-in-out duration-150">
+              <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-hh-primary focus:outline-none focus:border-hh-primary focus:shadow-outline-hh-primary active:bg-hh-primary transition ease-in-out duration-150">
                 Tilmeld
               </button>
             </span>
