@@ -30,7 +30,7 @@
         <div class="flex items-center flex-1">
           <div class="flex items-center justify-between w-full md:w-auto">
             <a href="#" aria-label="Home">
-              <img class="h-8 w-auto sm:h-10" src="/img/logos/workflow-mark-on-white.svg" alt="Logo">
+              <img class="h-8 w-auto sm:h-10" src="@/assets/images/Logo.png" alt="Logo">
             </a>
             <div class="-mr-2 flex items-center md:hidden">
               <button id="main-menu" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" aria-label="Main menu" aria-haspopup="true">
@@ -50,8 +50,8 @@
         <div class="hidden md:block text-right">
           <span class="inline-flex rounded-md shadow-md">
             <span class="inline-flex rounded-md shadow-xs">
-              <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 focus:outline-none focus:border-indigo-300 focus:shadow-outline-indigo transition duration-150 ease-in-out">
-                Log in
+              <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-hh-primary bg-white hover:bg-gray-50 focus:outline-none focus:border-hh-primary focus:shadow-outline-hh-primary transition duration-150 ease-in-out">
+                Tilmeld dig
               </a>
             </span>
           </span>
@@ -90,7 +90,7 @@
               <a href="#" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out" role="menuitem">Company</a>
             </div>
             <div>
-              <a href="#" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out" role="menuitem">
+              <a href="#" class="block w-full px-5 py-3 text-center font-medium text-hh-primary bg-gray-50 hover:bg-gray-100 hover:text-hh-primary focus:outline-none focus:bg-gray-100 focus:text-hh-primary transition duration-150 ease-in-out" role="menuitem">
                 Log in
               </a>
             </div>
@@ -104,7 +104,7 @@
             <h2 class="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
               Selv en lille indsats
               <br class="hidden md:inline">
-              <span class="text-indigo-600">gør en stor forskel</span>
+              <span class="text-hh-primary">gør en stor forskel</span>
             </h2>
             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua ad ad non deserunt sunt.
@@ -153,7 +153,7 @@
               <button type="button" class="relative block w-full rounded-lg overflow-hidden focus:outline-none focus:shadow-outline">
                 <img class="w-full" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Woman making a sale">
                 <div class="absolute inset-0 w-full h-full flex items-center justify-center">
-                  <svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
+                  <svg class="h-20 w-20 text-hh-primary" fill="currentColor" viewBox="0 0 84 84">
                     <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
                     <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
                   </svg>

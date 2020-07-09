@@ -1,11 +1,13 @@
 <template>
-  <div>
+  <main>
     <Header />
     <Facts class="my-24" />
     <Bodil />
     <Companies />
     <GetStarted />
-  </div>
+    <Whoarewe />
+    <Footer />
+  </main>
 </template>
 
 <script>
