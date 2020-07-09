@@ -60,7 +60,7 @@
         </button>
       </div>
       <div class="mt-12">
-        <form action="#" method="POST" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
+        <form name="sign-up" method="POST" class="grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8" netlify>
           <div class="sm:col-span-2">
             <label for="full_name" class="block text-sm font-medium leading-5 text-gray-700">Navn</label>
             <div class="mt-1 relative rounded-md shadow-sm">
