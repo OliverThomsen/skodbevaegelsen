@@ -68,7 +68,7 @@
           netlify
           netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="form-name" value="sign-up">
+          <input type="hidden" name="form-name" value="sign-up" />
           <div class="sm:col-span-2">
             <label for="full_name" class="block text-sm font-medium leading-5 text-gray-700">Navn</label>
             <div class="mt-1 relative rounded-md shadow-sm">
