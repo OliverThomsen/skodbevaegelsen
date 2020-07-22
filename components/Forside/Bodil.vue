@@ -30,7 +30,7 @@
             Danmarks største skodkampagne
           </h4>
           <p class="text-lg leading-6 font-medium text-gray-900">
-            Mød Bodil Fosgaard
+            Mød Bodil Fosgaard Hejsa
           </p>
           <p class="mt-3 text-lg leading-7 text-gray-500">
             Bodil har samlet mere end 1.000.000 cigaretskodder, siden at hun begyndte at lave sine skodværker i 2019.
