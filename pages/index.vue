@@ -1,6 +1,7 @@
 <template>
   <main>
     <Header />
+    <HeroVideo class="absolute top-0" />
     <Hero />
     <Facts class="my-24" />
     <Bodil />
