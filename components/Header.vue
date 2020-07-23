@@ -16,14 +16,14 @@
           </button>
         </div>
         <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
-          <nuxt-link to="/virksomheder" class="px-12 py-6 text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
+          <nuxt-link to="/virksomheder" class="px-12 py-6 font-sans text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
             Virksomheder
           </nuxt-link>
-          <nuxt-link to="hent-dit-skodkit" class="px-12 py-6 text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
+          <nuxt-link to="hent-dit-skodkit" class="px-12 py-6 font-sans text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
             Hent dit skodkit
           </nuxt-link>
           <span class="inline-flex rounded-md shadow-sm">
-            <a href="#signup" class="whitespace-no-wrap inline-flex items-center justify-center px-12 py-6 border border-transparent text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
+            <a href="#signup" class="whitespace-no-wrap font-sans inline-flex items-center justify-center px-12 py-6 border border-transparent text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
               Tilmeld dig
             </a>
           </span>

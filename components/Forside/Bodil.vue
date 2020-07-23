@@ -7,17 +7,17 @@
             <h4 class="text-xl leading-8 font-bold font-serif text-white">
               Mød Bodil Fosgaard
             </h4>
-            <div class="py-6 text-lg font-bold text-white tracking-tight sm:text-6xl leading-14">
+            <div class="py-6 text-lg font-bold font-sans text-white tracking-tight sm:text-6xl leading-14">
               Danmarks ukronede skoddronning
             </div>
-            <p class="mt-3 text-lg leading-7 text-white">
+            <p class="mt-3 text-lg leading-7 font-sans text-white">
               Bodil har samlet mere end 1.000.000 cigaretskodder, siden at hun begyndte at lave sine skodværker i 2019.
             </p>
-            <p class="mt-3 text-lg leading-7 text-white">
+            <p class="mt-3 text-lg leading-7 font-sans text-white">
               Hun er en ildsjæl, som i stedet for at blive ved med at være frustreret over skrald og skodder i naturen, besluttede
               sig for at gøre noget konstruktivt ved det.
             </p>
-            <p class="mt-3 text-lg leading-7 text-white">
+            <p class="mt-3 text-lg leading-7 font-sans text-white">
               Hvad dag arbejder hun på at gøre Danmark fri for cigaretskodder og hun helmer ikke før, at Danmark er skodfri.
             </p>
           </div>

@@ -5,7 +5,7 @@
         <div class="text-sm tracking-wide font-serif text-white sm:text-base lg:text-sm xl:text-3xl">
           Danmarks største skodkampagne
         </div>
-        <h2 class="mt-1 text-4xl tracking-tight leading-10 text-white sm:leading-none sm:text-6xl lg:text-5xl xl:text-11xl">
+        <h2 class="mt-1 text-4xl font-sans tracking-tight leading-10 text-white sm:leading-none sm:text-6xl lg:text-5xl xl:text-11xl">
           Selv en lille indsats
           <br class="hidden md:inline">
           <span class="text-white font-bold">gør en stor forskel</span>
