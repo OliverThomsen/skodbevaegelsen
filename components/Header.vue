@@ -22,8 +22,8 @@
           <nuxt-link to="hent-dit-skodkit" class="px-12 py-6 font-sans text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
             Hent dit skodkit
           </nuxt-link>
-          <span class="inline-flex rounded-md shadow-sm">
-            <a href="#signup" class="whitespace-no-wrap font-sans inline-flex items-center justify-center px-12 py-6 border border-transparent text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
+          <span class="inline-flex">
+            <a href="#signup" class="whitespace-no-wrap font-sans inline-flex items-center justify-center px-12 py-6 text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
               Tilmeld dig
             </a>
           </span>

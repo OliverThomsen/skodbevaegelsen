@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-hh-black overflow-hidden flex items-center justify-center sun-tornado bg-no-repeat bg-left-top">
+  <div class="bg-hh-black overflow-hidden flex items-center justify-center sun-tornado bg-no-repeat bg-cover bg-left-top">
     <div class="">
       <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
         <div class="relative lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">

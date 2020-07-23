@@ -2,10 +2,9 @@
   <div class="bg-hh-orange flex items-center justify-center pattern bg-no-repeat bg-cover">
     <div class="">
       <div class="relative">
-        <div class="tracking-wide text-center text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl md:text-9xl sm:leading-10">
+        <div class="tracking-wide text-center font-sans text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl md:text-6xl sm:leading-14">
           Sammen om et
-        </div>
-        <div class="tracking-wide pt-20 text-center text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl md:text-9xl sm:leading-10">
+          <br>
           skodfrit Danmark
         </div>
       </div>

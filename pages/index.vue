@@ -5,8 +5,8 @@
       <Header />
       <Hero />
     </div>
-    <Facts class="h-screen" />
-    <Bodil class="h-screen" />
+    <Facts class="h-xxl" />
+    <Bodil class="h-xxl" />
     <Companies />
     <Signup id="signup" />
     <GetStarted />

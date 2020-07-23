@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
-
 .pattern {
     background-image: url('~assets/images/pattern.svg');
   }
-
-  .sun-tornado {
-    background-image: url('~assets/images/Sun-Tornado.svg');
-  }
+.pattern2 {
+  background-image: url('~assets/images/pattern-2.svg');
+}
+.sun-tornado {
+  background-image: url('~assets/images/Sun-Tornado.svg');
+}
 #suntornado {
     opacity: 0.1;
 }
