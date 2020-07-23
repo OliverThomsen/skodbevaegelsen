@@ -1,11 +1,11 @@
 <template>
   <!-- This example requires Tailwind CSS v1.4.0+ -->
-  <div class="">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6">
-      <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+  <div class="relative">
+    <div class="mx-auto">
+      <div class="flex justify-between items-center pb-6 md:justify-start md:space-x-10">
         <div class="lg:w-0 lg:flex-1">
-          <nuxt-link to="/" class="flex">
-            <img class="h-8 w-auto sm:h-10" src="@/assets/images/Logo.png" alt="Logo">
+          <nuxt-link to="/" class="flex pl-6">
+            <img class="pt-3" src="@/assets/images/Logo.svg" alt="Logo">
           </nuxt-link>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -15,17 +15,15 @@
             </svg>
           </button>
         </div>
-        <nav class="hidden md:flex space-x-10">
-          <nuxt-link to="/virksomheder" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+        <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
+          <nuxt-link to="/virksomheder" class="px-12 py-6 text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
             Virksomheder
           </nuxt-link>
-          <nuxt-link to="hent-dit-skodkit" class="text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition ease-in-out duration-150">
+          <nuxt-link to="hent-dit-skodkit" class="px-12 py-6 text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
             Hent dit skodkit
           </nuxt-link>
-        </nav>
-        <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
           <span class="inline-flex rounded-md shadow-sm">
-            <a href="#signup" class="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
+            <a href="#signup" class="whitespace-no-wrap inline-flex items-center justify-center px-12 py-6 border border-transparent text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
               Tilmeld dig
             </a>
           </span>

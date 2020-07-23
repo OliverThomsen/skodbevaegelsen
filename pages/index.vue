@@ -1,10 +1,12 @@
 <template>
   <main>
-    <Header />
     <HeroVideo class="absolute top-0" />
-    <Hero />
-    <Facts class="my-24" />
-    <Bodil />
+    <div class="h-screen">
+      <Header />
+      <Hero />
+    </div>
+    <Facts class="h-screen" />
+    <Bodil class="h-screen" />
     <Companies />
     <Signup id="signup" />
     <GetStarted />
