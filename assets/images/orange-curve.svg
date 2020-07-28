@@ -5,7 +5,7 @@
         <g id="Landing-(desktop)-Copy-3" transform="translate(0.000000, -3574.000000)">
             <polygon id="Rectangle-5-Copy-4" fill="#222222" points="0 3620 1440 3620 1440 4577 0 4577"></polygon>
             <rect id="Rectangle" fill="#222222" x="0" y="2937" width="1440" height="683"></rect>
-            <path d="M1461,3619.5 C1200.79366,3586.83333 956.37821,3586.83333 727.753643,3619.5 C499.129077,3652.16667 248.877863,3652.16667 -23,3619.5" id="Path-206" stroke="#EB662C" stroke-width="41"></path>
+            <path d="M1461,3619.5 C1200.79366,3586.83333 956.37821,3586.83333 727.753643,3619.5 C499.129077,3652.16667 248.877863,3652.16667 -23,3619.5" id="Path-206" stroke="#EB662C" stroke-width="21"></path>
         </g>
     </g>
 </svg>

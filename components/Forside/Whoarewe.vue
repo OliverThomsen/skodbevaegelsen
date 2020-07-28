@@ -1,169 +1,78 @@
 <template>
   <div>
-    <section class="bg-white overflow-hidden">
-      <div class="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-        <svg class="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
-          <defs>
-            <pattern
-              id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                class="text-gray-200"
-                fill="currentColor"
-              />
-            </pattern>
-          </defs>
-          <rect width="784" height="404" fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)" />
-        </svg>
-
-        <svg class="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
-          <defs>
-            <pattern
-              id="56409614-3d62-4985-9a10-7ca758a8f4f0"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                class="text-gray-200"
-                fill="currentColor"
-              />
-            </pattern>
-          </defs>
-          <rect width="404" height="784" fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)" />
-        </svg>
-
-        <div class="relative lg:flex lg:items-center">
-          <div class="hidden lg:block lg:flex-shrink-0">
-            <img class="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-          </div>
-
-          <div class="relative lg:ml-10">
-            <svg class="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-hh-primary opacity-50" stroke="currentColor" fill="none" viewBox="0 0 144 144">
-              <path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z" />
-            </svg>
-            <blockquote class="relative">
-              <div class="text-2xl leading-9 font-medium text-gray-900">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.
+    <section class="bg-hh-black overflow-hidden">
+      <h3 class="text-center text-6xl leading-14 font-semibold text-white tracking-wide">
+        Hvem er vi
+      </h3>
+      <div class="relative max-w-screen-md mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
+        <ul class="grid grid-cols-1 gap-10">
+          <li class="col-span-1 bg-hh-gray rounded-lg shadow-lg">
+            <div class="w-full flex items-center justify-between p-6 space-x-6">
+              <div class="flex-1 truncate">
+                <div class="flex items-center space-x-3">
+                  <h3 class="text-white text-3xl leading-9 font-bold font-sans">
+                    Bodil Fosgaard
+                  </h3>
+                </div>
+                <p class="mt-1 text-hh-orange text-xl leading-5 font-semibold font-sans">
+                  Bodil Fosgaard
                 </p>
               </div>
-              <footer class="mt-8">
-                <div class="flex">
-                  <div class="flex-shrink-0 lg:hidden">
-                    <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                  </div>
-                  <div class="ml-4 lg:ml-0">
-                    <div class="text-base leading-6 font-medium text-gray-900">
-                      Judith Black
-                    </div>
-                    <div class="text-base leading-6 font-medium text-hh-primary">
-                      CEO, Tuple
-                    </div>
-                  </div>
-                </div>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="bg-white overflow-hidden">
-      <div class="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
-        <svg class="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden" width="784" height="404" fill="none" viewBox="0 0 784 404">
-          <defs>
-            <pattern
-              id="e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                class="text-gray-200"
-                fill="currentColor"
-              />
-            </pattern>
-          </defs>
-          <rect width="784" height="404" fill="url(#e56e3f81-d9c1-4b83-a3ba-0d0ac8c32f32)" />
-        </svg>
-
-        <svg class="hidden lg:block absolute right-full top-1/2 transform translate-x-1/2 -translate-y-1/2" width="404" height="784" fill="none" viewBox="0 0 404 784">
-          <defs>
-            <pattern
-              id="56409614-3d62-4985-9a10-7ca758a8f4f0"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect
-                x="0"
-                y="0"
-                width="4"
-                height="4"
-                class="text-gray-200"
-                fill="currentColor"
-              />
-            </pattern>
-          </defs>
-          <rect width="404" height="784" fill="url(#56409614-3d62-4985-9a10-7ca758a8f4f0)" />
-        </svg>
-
-        <div class="relative lg:flex lg:items-center">
-          <div class="hidden lg:block lg:flex-shrink-0">
-            <img class="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-          </div>
-
-          <div class="relative lg:ml-10">
-            <svg class="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-hh-primary opacity-50" stroke="currentColor" fill="none" viewBox="0 0 144 144">
-              <path stroke-width="2" d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z" />
-            </svg>
-            <blockquote class="relative">
-              <div class="text-2xl leading-9 font-medium text-gray-900">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.
+              <img class="w-32 h-32 bg-gray-300 rounded-full flex-shrink-0" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60" alt="">
+            </div>
+            <div class="border-t border-hh-white">
+              <div class="-mt-px flex p-6">
+                <p class="text-gray-300 text-lg leading-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid aperiam deleniti, libero, doloribus nemo autem et, iusto aut exercitationem est asperiores suscipit dolore eum nisi obcaecati consequatur reprehenderit modi!
                 </p>
               </div>
-              <footer class="mt-8">
-                <div class="flex">
-                  <div class="flex-shrink-0 lg:hidden">
-                    <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-                  </div>
-                  <div class="ml-4 lg:ml-0">
-                    <div class="text-base leading-6 font-medium text-gray-900">
-                      Judith Black
-                    </div>
-                    <div class="text-base leading-6 font-medium text-hh-primary">
-                      CEO, Tuple
-                    </div>
-                  </div>
+            </div>
+          </li>
+          <li class="col-span-1 bg-hh-gray rounded-lg shadow-lg">
+            <div class="w-full flex items-center justify-between p-6 space-x-6">
+              <div class="flex-1 truncate">
+                <div class="flex items-center space-x-3">
+                  <h3 class="text-white text-3xl leading-9 font-bold font-sans">
+                    Bodil Fosgaard
+                  </h3>
                 </div>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
+                <p class="mt-1 text-hh-orange text-xl leading-5 font-semibold font-sans">
+                  Bodil Fosgaard
+                </p>
+              </div>
+              <img class="w-32 h-32 bg-gray-300 rounded-full flex-shrink-0" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60" alt="">
+            </div>
+            <div class="border-t border-hh-white">
+              <div class="-mt-px flex p-6">
+                <p class="text-gray-300 text-lg leading-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid aperiam deleniti, libero, doloribus nemo autem et, iusto aut exercitationem est asperiores suscipit dolore eum nisi obcaecati consequatur reprehenderit modi!
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="col-span-1 bg-hh-gray rounded-lg shadow-lg">
+            <div class="w-full flex items-center justify-between p-6 space-x-6">
+              <div class="flex-1 truncate">
+                <div class="flex items-center space-x-3">
+                  <h3 class="text-white text-3xl leading-9 font-bold font-sans">
+                    Bodil Fosgaard
+                  </h3>
+                </div>
+                <p class="mt-1 text-hh-orange text-xl leading-5 font-semibold font-sans">
+                  Bodil Fosgaard
+                </p>
+              </div>
+              <img class="w-32 h-32 bg-gray-300 rounded-full flex-shrink-0" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=4&amp;w=256&amp;h=256&amp;q=60" alt="">
+            </div>
+            <div class="border-t border-hh-white">
+              <div class="-mt-px flex p-6">
+                <p class="text-gray-300 text-lg leading-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aliquid aperiam deleniti, libero, doloribus nemo autem et, iusto aut exercitationem est asperiores suscipit dolore eum nisi obcaecati consequatur reprehenderit modi!
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
   </div>

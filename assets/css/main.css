@@ -7,6 +7,9 @@
 .sun-tornado {
   background-image: url('~assets/images/Sun-Tornado.svg');
 }
+.orange-curve {
+  background-image: url('~assets/images/orange-curve.svg');
+}
 #suntornado {
     opacity: 0.1;
 }

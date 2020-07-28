@@ -10,7 +10,9 @@ module.exports = {
       colors: {
         'hh-primary': '#50c6db',
         'hh-orange': '#EB662C',
-        'hh-black': '#222222'
+        'hh-black': '#222222',
+        'hh-gray': '#303030',
+        'hh-white': '#6C6C6C'
       },
       fontFamily: {
         sans: ['Nunito', 'Sans-serif'],
@@ -38,7 +40,9 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    translate: ['responsive', 'hover', 'focus', 'group-hover']
+  },
   plugins: [
     require('@tailwindcss/ui')
   ],

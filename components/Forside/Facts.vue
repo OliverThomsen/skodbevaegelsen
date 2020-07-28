@@ -2,7 +2,7 @@
   <div class="bg-hh-orange flex items-center justify-center pattern bg-no-repeat bg-cover">
     <div class="">
       <div class="relative">
-        <div class="tracking-wide text-center font-sans text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl md:text-6xl sm:leading-14">
+        <div class="tracking-wide text-center font-sans text-3xl leading-8 font-bold tracking-tight text-white sm:text-4xl md:text-6xl sm:leading-14">
           Sammen om et
           <br>
           skodfrit Danmark

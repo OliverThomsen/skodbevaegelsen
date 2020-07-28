@@ -7,7 +7,7 @@
             <h4 class="text-xl leading-8 font-bold font-serif text-white">
               Mød Bodil Fosgaard
             </h4>
-            <div class="py-6 text-lg font-bold font-sans text-white tracking-tight sm:text-6xl leading-14">
+            <div class="py-6 text-lg font-semibold font-sans text-white tracking-tight sm:text-6xl leading-14">
               Danmarks ukronede skoddronning
             </div>
             <p class="mt-3 text-lg leading-7 font-sans text-white">
