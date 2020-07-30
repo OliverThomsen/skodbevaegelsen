@@ -179,9 +179,6 @@
         </div>
       </div>
     </div>
-    <div class="-mt-80 bg-hh-orange pattern2 bg-no-repeat bg-cover h-80">
-      <div class="black-curve bg-no-repeat bg-cover h-80" />
-    </div>
   </div>
 </template>
 

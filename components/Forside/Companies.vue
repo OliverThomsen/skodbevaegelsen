@@ -121,7 +121,9 @@
                   <div class="ml-3">
                     <p class="text-base leading-6 text-gray-500">
                       Jeg accepterer hermed vores
-                      <a href="#" class="font-medium text-gray-700 underline">privatlivspolitik</a>
+                      <nuxt-link to="/privatlivspolitik" class="font-medium text-gray-700 underline">
+                        privatlivspolitik
+                      </nuxt-link>
                       og
                       <a href="#" class="font-medium text-gray-700 underline">cookiepolitik</a>.
                     </p>

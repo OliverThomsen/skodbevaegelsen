@@ -5,7 +5,7 @@
       <HeroVirksomhed />
     </div>
     <CompaniesVirksomhed />
-    <Facts />
+    <FactsVirksomhed />
     <Whoarewe />
     <Footer />
   </main>
