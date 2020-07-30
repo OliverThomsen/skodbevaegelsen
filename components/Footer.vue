@@ -82,10 +82,12 @@
           >
             <input type="hidden" name="form-name" value="sign-up-newsletter">
             <input
+              id="email"
               v-model="email"
               aria-label="Email address"
-              type="email"
               required
+              name="email"
+              type="email"
               class="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
               placeholder="Indtast din email"
             >
