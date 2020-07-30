@@ -71,10 +71,26 @@
           <p class="mt-4 text-gray-300 text-base leading-6">
             Modtag løbende nyheder omkring danmarks største skodindsamling.
           </p>
-          <form class="mt-4 sm:flex sm:max-w-md">
-            <input aria-label="Email address" type="email" required class="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out" placeholder="Indtast din email">
+          <form
+            name="sign-up-newsletter"
+            method="POST"
+            netlify
+            netlify-honeypot="bot-field"
+            novalidate="true"
+            class="mt-4 sm:flex sm:max-w-md"
+            @submit="checkForm"
+          >
+            <input type="hidden" name="form-name" value="sign-up-newsletter">
+            <input
+              v-model="email"
+              aria-label="Email address"
+              type="email"
+              required
+              class="appearance-none w-full px-5 py-3 border border-transparent text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 transition duration-150 ease-in-out"
+              placeholder="Indtast din email"
+            >
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
-              <button class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-hh-orange focus:outline-none transition duration-150 ease-in-out">
+              <button type="submit" value="submit" class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-hh-orange focus:outline-none transition duration-150 ease-in-out">
                 Tilmeld
               </button>
             </div>
@@ -103,3 +119,27 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      email: null
+    }
+  },
+  methods: {
+    checkForm (e) {
+      if (!this.validEmail(this.email)) {
+        this.emailError = true
+        this.email = null
+      } else {
+        return true
+      }
+      e.preventDefault()
+    },
+    validEmail (email) {
+      const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      return re.test(email)
+    }
+  }
+}
+</script>
