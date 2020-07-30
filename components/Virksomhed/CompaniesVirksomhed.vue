@@ -211,12 +211,12 @@ export default {
       e.preventDefault()
     },
     checkCompanyName (e) {
-      if (!this.zip) {
-        this.zipError = true
-        this.zip = null
+      if (!this.companyName) {
+        this.companyNameError = true
+        this.companyName = null
       }
-      if (this.zip) {
-        this.zipError = false
+      if (this.companyName) {
+        this.companyNameError = false
       }
       e.preventDefault()
     },
@@ -235,9 +235,9 @@ export default {
         this.nameError = true
         this.name = null
       }
-      if (!this.zip) {
+      if (!this.companyName) {
         this.zipError = true
-        this.zip = null
+        this.companyName = null
       }
       if (!this.validEmail(this.email)) {
         this.emailError = true
@@ -249,8 +249,11 @@ export default {
       if (this.name) {
         this.nameError = false
       }
-      if (this.zip) {
-        this.zipError = false
+      if (this.companyName) {
+        this.companyNameError = false
+      }
+      if (this.name && this.companyName && this.validEmail(this.email) && this.samtykke && this.privacyPolicy) {
+        return true
       }
       e.preventDefault()
     },
