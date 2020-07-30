@@ -29,7 +29,7 @@
                 novalidate="true"
                 @submit="checkForm"
               >
-                <input type="hidden" name="form-name" value="sign-up">
+                <input type="hidden" name="form-name" value="sign-up-company">
                 <div class="sm:col-span-2">
                   <label for="full_name" class="block text-sm font-medium leading-5 text-gray-700">Kontaktperson</label>
                   <div class="mt-1 relative rounded-md shadow-sm">
@@ -236,7 +236,7 @@ export default {
         this.name = null
       }
       if (!this.companyName) {
-        this.zipError = true
+        this.companyNameError = true
         this.companyName = null
       }
       if (!this.validEmail(this.email)) {
