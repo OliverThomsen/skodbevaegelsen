@@ -40,6 +40,7 @@
               netlify
               netlify-honeypot="bot-field"
               novalidate="true"
+              enctype="multipart/form-data"
               @submit="checkForm"
             >
               <input type="hidden" name="form-name" value="sign-up">

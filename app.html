@@ -5,7 +5,7 @@
   </head>
   <body {{ BODY_ATTRS }}>
 
-      <form name="sign-up" netlify netlify-honeypot="bot-field" hidden>
+      <form name="sign-up" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" hidden>
 
           <input type="text" name="full_name" id="full_name" />
 
@@ -14,7 +14,7 @@
           <input type="email" name="email" id="email" />
 
       </form>
-      <form name="sign-up-company" netlify netlify-honeypot="bot-field" hidden>
+      <form name="sign-up-company" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" hidden>
 
         <input type="text" name="full_name" id="full_name" />
 
@@ -23,7 +23,7 @@
         <input type="email" name="email" id="email" />
 
     </form>
-    <form name="sign-up-newsletter" netlify netlify-honeypot="bot-field" hidden>
+    <form name="sign-up-newsletter" data-netlify="true" netlify-honeypot="bot-field" hidden>
 
       <input type="email" name="email" id="email" />
 
