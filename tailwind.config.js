@@ -44,7 +44,8 @@ module.exports = {
     translate: ['responsive', 'hover', 'focus', 'group-hover']
   },
   plugins: [
-    require('@tailwindcss/ui')
+    require('@tailwindcss/ui'),
+    require('@tailwindcss/typography')
   ],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css

@@ -125,7 +125,9 @@
                         privatlivspolitik
                       </nuxt-link>
                       og
-                      <a href="#" class="font-medium text-gray-700 underline">cookiepolitik</a>.
+                      <nuxt-link to="/cookiepolitik" class="font-medium text-gray-700 underline">
+                        cookiepolitik
+                      </nuxt-link>.
                     </p>
                   </div>
                 </div>
