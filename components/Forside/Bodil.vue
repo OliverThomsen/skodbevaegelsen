@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-hh-black overflow-hidden flex items-center justify-center sun-tornado bg-no-repeat bg-cover bg-left-top">
+  <div class="bg-hh-black overflow-hidden flex items-center justify-center sun-tornado bg-no-repeat bg-cover bg-left-top py-32">
     <div class="">
       <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
         <div class="relative lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
@@ -7,7 +7,7 @@
             <h4 class="text-xl leading-8 font-bold font-serif text-white">
               Mød Bodil Fosgaard
             </h4>
-            <div class="py-6 text-lg font-semibold font-sans text-white tracking-tight sm:text-6xl leading-14">
+            <div class="py-6 text-4xl leading-12 font-semibold font-sans text-white tracking-tight sm:text-6xl sm:leading-14">
               Danmarks ukronede skoddronning
             </div>
             <p class="mt-3 text-lg leading-7 font-sans text-white">

@@ -2,34 +2,20 @@
   <div id="signup" class="bg-hh-orange flex items-center justify-center pattern2 bg-no-repeat bg-cover py-32">
     <div class="w-full relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
       <div class="pb-12 pt-6 text-center text-4xl leading-12 font-semibold font-sans text-white tracking-tight sm:text-6xl sm:leading-14">
-        Danmarks største skodkampagne
+        <!-- Danmarks største skodkampagne -->
       </div>
       <div class="bg-white flex overflow-hidden shadow-2xl rounded-lg py-12">
         <div class="hidden md:block md:w-1/4" />
         <div class="w-full sm:w-full px-4 md:px-0">
           <div class="text-center">
             <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-              Har du lyst til at deltage i
-              <br>
-              Danmarks største skodkampagne?
+              Stå i spidsen for en skodfri fremtid
             </h2>
             <p class="mt-4 text-lg leading-6 text-gray-500">
-              Tilmeld dig herunder og vær' med til indsamling
+              Tilmeld din virksomhed herunder og vær' med til indsamling
               <br>
               af cigaretskodder fra den 14-19 september.
             </p>
-            <nuxt-link to="/virksomheder" type="button" class="group mt-4 tracking-wider font-serif rounded-full leading-4 uppercase bg-hh-orange px-4 py-2 md:px-12 md:py-4 text-white font-bold text-base">
-              <span class="hidden md:inline-block">Gå til</span> virksomhedstilmelding
-              <svg
-                class="h-4 w-4 inline -mt-1 transform group-hover:translate-x-1 transition ease-in-out duration-300"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="4"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              ><path d="M9 5l7 7-7 7" /></svg>
-            </nuxt-link>
           </div>
           <div class="mt-12 max-w-xl mx-auto">
             <form
@@ -195,6 +181,7 @@
           </div>
         </div>
       </div>
+      <div class="black-curve bg-no-repeat bg-cover h-80" />
     </div>
   </div>
 </template>

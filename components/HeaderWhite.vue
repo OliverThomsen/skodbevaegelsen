@@ -18,11 +18,11 @@
         <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
           <nuxt-link
             to="/virksomheder"
-            class="px-12 py-6 font-sans text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150"
+            class="px-12 py-6 font-sans text-base leading-6 font-bold text-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150"
           >
             Virksomheder
           </nuxt-link>
-          <nuxt-link to="hent-dit-skodkit" class="px-12 py-6 font-sans text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
+          <nuxt-link to="hent-dit-skodkit" class="px-12 py-6 font-sans text-base leading-6 font-bold text-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
             Hent dit skodkit
           </nuxt-link>
           <span class="inline-flex">

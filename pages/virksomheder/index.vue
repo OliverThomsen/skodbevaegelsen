@@ -1,9 +1,11 @@
 <template>
   <main>
-    <Header />
-    <Companies />
-    <Signup id="signup" />
-    <Facts class="my-24" />
+    <div class="h-screen skod-bg bg-no-repeat bg-cover">
+      <HeaderWhite />
+      <HeroVirksomhed />
+    </div>
+    <CompaniesVirksomhed />
+    <Facts />
     <Whoarewe />
     <Footer />
   </main>
