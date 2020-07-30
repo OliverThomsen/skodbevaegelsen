@@ -14,7 +14,7 @@
           og støt op om <span class="text-white font-bold">Danmarks største skodkampagne</span>
         </h2>
         <div class="pt-16">
-          <a href="#signup" class="group tracking-wider font-serif rounded-full leading-3 uppercase bg-white px-12 py-6 text-hh-orange font-bold text-xl">
+          <a href="#signupcompany" class="group tracking-wider font-serif rounded-full leading-3 uppercase bg-white px-12 py-6 text-hh-orange font-bold text-xl">
             Tilmeld din virksomhed
             <svg
               class="h-4 w-4 inline -mt-1 transform group-hover:translate-x-1 transition ease-in-out duration-300"

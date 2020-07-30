@@ -156,16 +156,11 @@
               </div>
               <div class="sm:col-span-2">
                 <span class="w-full inline-flex rounded-md">
-                  <button type="submit" class="cursor-default w-full inline-flex items-center justify-center px-6 py-3 text-base leading-6 font-medium rounded-md text-gray-500 border-2 border-gray-200 focus:outline-none transition ease-in-out duration-150">
+                  <button value="submit" type="submit" :class="[{'cursor-pointer bg-green-400 active:bg-green-500 text-white border-transparent': samtykke && privacyPolicy }, {'cursor-default text-gray-500 border-gray-200': !samtykke || !privacyPolicy }]" class=" w-full inline-flex items-center justify-center px-6 py-3 text-base leading-6 font-medium rounded-md border-2 focus:outline-none transition ease-in-out duration-150">
                     Tilmeld
                   </button>
                 </span>
                 <!-- Når den er aktiv -->
-                <span class="w-full inline-flex rounded-md">
-                  <button type="submit" class="cursor-pointer w-full inline-flex items-center justify-center px-6 py-3 text-base leading-6 font-medium rounded-md text-white border-2 border-transparent bg-green-400 focus:outline-none active:bg-green-500 transition ease-in-out duration-150">
-                    Tilmeld
-                  </button>
-                </span>
               </div>
             </form>
           </div>
@@ -222,7 +217,6 @@ export default {
       if (this.name) {
         this.nameError = false
       }
-      e.preventDefault()
     },
     checkZip (e) {
       if (!this.zip) {
@@ -232,7 +226,6 @@ export default {
       if (this.zip) {
         this.zipError = false
       }
-      e.preventDefault()
     },
     checkEmail (e) {
       if (!this.validEmail(this.email)) {
@@ -242,7 +235,6 @@ export default {
       if (this.email) {
         this.emailError = false
       }
-      e.preventDefault()
     },
     checkForm (e) {
       if (!this.name) {
@@ -265,6 +257,9 @@ export default {
       }
       if (this.zip) {
         this.zipError = false
+      }
+      if (this.name && this.zip && this.validEmail(this.email) && this.samtykke && this.privacyPolicy) {
+        return true
       }
       e.preventDefault()
     },
