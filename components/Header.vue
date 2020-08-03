@@ -18,11 +18,11 @@
         <div class="hidden md:flex items-center justify-end space-x-8 md:flex-1 lg:w-0">
           <nuxt-link
             to="/virksomheder"
-            class="px-12 py-6 font-sans text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150"
+            class="menu-items hover:text-hh-orange px-12 py-6 font-sans text-base leading-6 font-bold focus:outline-none transition ease-in-out duration-150"
           >
             Virksomheder
           </nuxt-link>
-          <nuxt-link to="hent-dit-skodkit" class="px-12 py-6 font-sans text-base leading-6 font-bold text-hh-black hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
+          <nuxt-link to="hent-dit-skodkit" class="menu-items hover:text-hh-orange px-12 py-6 font-sans text-base leading-6 font-bold focus:outline-none transition ease-in-out duration-150">
             Hent dit skodkit
           </nuxt-link>
           <span class="inline-flex">
@@ -50,7 +50,7 @@
           <div class="pt-5 pb-6 px-5 space-y-6">
             <div class="flex items-center justify-between">
               <div>
-                <img class="h-8 w-auto" src="/img/logos/workflow-mark-on-white.svg" alt="Workflow">
+                <img class="h-8 w-auto" src="#" alt="Workflow">
               </div>
               <div class="-mr-2">
                 <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">

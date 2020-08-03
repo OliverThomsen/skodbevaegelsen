@@ -41,7 +41,8 @@ module.exports = {
     }
   },
   variants: {
-    translate: ['responsive', 'hover', 'focus', 'group-hover']
+    translate: ['responsive', 'hover', 'focus', 'group-hover'],
+    margin: ['responsive', 'first', 'hover', 'focus']
   },
   plugins: [
     require('@tailwindcss/ui'),

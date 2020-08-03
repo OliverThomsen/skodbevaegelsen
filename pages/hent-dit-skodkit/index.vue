@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="h-screen skod-bg bg-no-repeat bg-cover">
-      <HeaderWhite />
+      <Header />
       <HeroVirksomhed />
     </div>
     <CompaniesVirksomhed />

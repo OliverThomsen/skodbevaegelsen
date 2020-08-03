@@ -19,3 +19,16 @@
 #suntornado {
     opacity: 0.1;
 }
+
+.prose a {
+  @apply text-hh-orange;
+}
+.hvid .menu-items {
+  @apply text-white;
+}
+.hvid .menu-items:hover {
+  @apply text-hh-orange;
+}
+.nuxt-content-container textarea {
+  color: #000000 !important;
+}

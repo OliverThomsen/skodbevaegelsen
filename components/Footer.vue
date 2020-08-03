@@ -57,7 +57,12 @@
               <ul class="mt-4">
                 <li>
                   <nuxt-link to="/privatlivspolitik" class="text-base leading-6 text-gray-300 hover:text-white">
-                    Cookie- og privatlivspolitik
+                    Privatlivspolitik
+                  </nuxt-link>
+                </li>
+                <li class="mt-4">
+                  <nuxt-link to="/cookiepolitik" class="text-base leading-6 text-gray-300 hover:text-white">
+                    Cookiepolitik
                   </nuxt-link>
                 </li>
               </ul>

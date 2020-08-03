@@ -12,52 +12,14 @@
             </div>
           </div>
           <div class="mt-12 md:mt-0">
-            <div>
+            <div v-for="step in steps" :key="step.slug" class="mt-12 first:mt-0">
               <dt class="text-2xl leading-6 font-semibold text-white tracking-wide">
-                Tilmeld dig indsamlingen.
+                {{ step.titel }}
               </dt>
               <dd class="mt-2">
                 <p class="text-base leading-6 font-serif text-white tracking-wide">
-                  Vi sender dig en e-mail med praktisk information, om hvordan du kommer i gang.
+                  <nuxt-content :document="step" />
                 </p>
-              </dd>
-            </div>
-            <div class="mt-12">
-              <dt class="text-2xl leading-6 font-semibold text-white tracking-wide">
-                Spred budskabet!
-              </dt>
-              <dd class="mt-2">
-                <p class="text-base leading-6 font-serif text-white tracking-wide">
-                  Hvis indsamlingen skal blive en succes skal den have opmærksomhed. Bliv en del af <a href="https://www.facebook.com/pages/category/Environmental-Conservation-Organization/Skodbev%C3%A6gelsen-126233085439157/" target="_blank" class="text-hh-orange underline font-semibold">skodbevægelsen</a> og del din indsamling.
-                </p>
-              </dd>
-            </div>
-            <div class="mt-12">
-              <dt class="text-2xl leading-6 font-semibold text-white tracking-wide">
-                Hent dit skodkit
-              </dt>
-              <dd class="mt-2">
-                <p class="text-base leading-6 font-serif text-white tracking-wide">
-                  På den måde kan du uanset hvor du befinder dig deltage i skodindsamlingen samt gøre omverdenen opmærksom på et af verdens største klimasyndere.
-                </p>
-              </dd>
-            </div>
-            <div class="mt-12">
-              <dt class="text-2xl leading-6 font-semibold text-white tracking-wide">
-                Giv et like og følg med
-              </dt>
-              <dd class="mt-2">
-                <p class="text-base leading-6 font-serif text-white tracking-wide">
-                  Du kan se ildsjælen Bodil Fosgaard skodværker her: <a href="https://www.instagram.com/made_by_my_butts/" target="_blank" class="text-hh-orange underline font-semibold">Link</a>
-                </p>
-              </dd>
-            </div>
-            <div class="mt-12">
-              <dt class="text-2xl leading-6 font-semibold text-white tracking-wide">
-                Brug hashtagget
-              </dt>
-              <dd class="mt-2">
-                <a href="https://www.instagram.com/explore/tags/sammensamlerviskod/" target="_blank" class="text-hh-orange underline font-semibold">#sammeensamlerviskod</a>
               </dd>
             </div>
           </div>
@@ -67,3 +29,15 @@
     <div class="orange-curve bg-no-repeat bg-cover pb-56" />
   </div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      steps: []
+    }
+  },
+  async fetch () {
+    this.steps = await this.$content('kom-i-gang').sortBy('position').fetch()
+  }
+}
+</script>

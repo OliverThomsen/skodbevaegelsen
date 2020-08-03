@@ -1,11 +1,11 @@
 <template>
   <main>
     <div class="h-screen skod-bg bg-no-repeat bg-cover">
-      <HeaderWhite />
+      <Header class="hvid" />
       <HeroVirksomhed />
     </div>
     <CompaniesVirksomhed />
-    <FactsVirksomhed />
+    <Facts />
     <Whoarewe />
     <Footer />
   </main>

@@ -5,20 +5,13 @@
         <div class="relative lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center">
           <div class="relative">
             <h4 class="text-xl leading-8 font-bold font-serif text-white">
-              Mød Bodil Fosgaard
+              {{ tekst.subtitle }}
             </h4>
             <div class="py-6 text-4xl leading-12 font-semibold font-sans text-white tracking-tight sm:text-6xl sm:leading-14">
-              Danmarks ukronede skoddronning
+              {{ tekst.title }}
             </div>
             <p class="mt-3 text-lg leading-7 font-sans text-white">
-              Bodil har samlet mere end 1.000.000 cigaretskodder, siden at hun begyndte at lave sine skodværker i 2019.
-            </p>
-            <p class="mt-3 text-lg leading-7 font-sans text-white">
-              Hun er en ildsjæl, som i stedet for at blive ved med at være frustreret over skrald og skodder i naturen, besluttede
-              sig for at gøre noget konstruktivt ved det.
-            </p>
-            <p class="mt-3 text-lg leading-7 font-sans text-white">
-              Hvad dag arbejder hun på at gøre Danmark fri for cigaretskodder og hun helmer ikke før, at Danmark er skodfri.
+              <nuxt-content :document="tekst" />
             </p>
           </div>
 
@@ -40,3 +33,15 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      tekst: []
+    }
+  },
+  async fetch () {
+    this.tekst = await this.$content('meet-bodil').fetch()
+  }
+}
+</script>
