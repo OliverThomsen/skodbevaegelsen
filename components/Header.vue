@@ -162,7 +162,6 @@ export default {
   },
   mounted () {
     if (this.$route.fullPath === '/privatlivspolitik' || this.$route.fullPath === '/cookiepolitik') {
-      console.log(this.$route.fullPath)
       this.logoBlack = true
     }
   },
