@@ -162,6 +162,42 @@ export default {
     if (this.$route.fullPath === '/virksomheder') {
       this.virksomheder = true
     }
+  },
+  head () {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://skodbevægelsen.dk'
+        }
+      ],
+      title: 'Danmarks største skodkampagne - Gør en stor forskel',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Tag familien under armen og deltag, i Danmarks største skodkampagne fra d. 27 august. Selv en lille indsats gør en stor forskel. '
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Deltag i Danmarks største skodkampagne'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'Selv en lille indsats gør en stor forskel.'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content:
+            'https://happyhelper.dk/cmsuploads//2020/08/Skod-3.jpg'
+        },
+        { hid: 'og:url', property: 'og:url', content: 'https://skodbevægelsen.dk' }
+      ]
+    }
   }
 }
 </script>

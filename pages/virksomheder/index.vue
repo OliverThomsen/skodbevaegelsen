@@ -87,7 +87,6 @@ export default {
   },
   data () {
     return {
-      title: 'Happy Helper for virksomheder + Coop',
       virksomheder: false
     }
   },
@@ -98,10 +97,37 @@ export default {
   },
   head () {
     return {
-      title: this.title,
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://skodbevægelsen.dk/virksomheder'
+        }
+      ],
+      title: 'Danmarks største skodkampagne - Gør en stor forskel',
       meta: [
-        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
-        { hid: 'description', name: 'description', content: 'My custom description' }
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Tilmeld din virksomhed/forening og deltag, i Danmarks største skodkampagne fra d. 27 august. Selv en lille indsats gør en stor forskel.'
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Deltag som virksomhed i Danmarks største skodkampagne'
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'Selv en lille indsats gør en stor forskel.'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content:
+            'https://happyhelper.dk/cmsuploads//2020/08/Skod_virk-4.jpg'
+        },
+        { hid: 'og:url', property: 'og:url', content: 'https://skodbevægelsen.dk/virksomheder' }
       ]
     }
   }
