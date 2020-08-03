@@ -5,8 +5,8 @@
       <Header />
       <Hero />
     </div>
-    <Bodil />
     <Facts />
+    <Bodil />
     <Companies />
     <GetStarted />
     <Whoarewe />
