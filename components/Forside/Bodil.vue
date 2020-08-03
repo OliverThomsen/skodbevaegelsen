@@ -35,13 +35,13 @@
 </template>
 <script>
 export default {
+  async fetch () {
+    this.tekst = await this.$content('meet-bodil').fetch()
+  },
   data () {
     return {
       tekst: []
     }
-  },
-  async fetch () {
-    this.tekst = await this.$content('meet-bodil').fetch()
   }
 }
 </script>
