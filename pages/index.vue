@@ -1,8 +1,7 @@
 <template>
   <main>
-    <HeroVideo class="absolute top-0" />
-    <div class="h-screen">
-      <Header />
+    <div class="h-screen skod-bg bg-no-repeat bg-cover">
+      <Header class="hvid" />
       <Hero />
     </div>
     <!-- Fact start -->
@@ -156,7 +155,6 @@ export default {
   },
   data () {
     return {
-      title: 'Happy Helper + Coop',
       virksomheder: false
     }
   },
@@ -167,7 +165,7 @@ export default {
   },
   head () {
     return {
-      title: this.title,
+      title: 'Happy Helper + Coop',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         { hid: 'description', name: 'description', content: 'My custom description' }

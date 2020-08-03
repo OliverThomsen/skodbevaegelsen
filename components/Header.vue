@@ -5,7 +5,8 @@
       <div class="flex justify-between items-center pb-6 md:justify-start md:space-x-10">
         <div class="lg:w-0 lg:flex-1">
           <nuxt-link to="/" class="flex pl-6">
-            <img class="pt-3" src="@/assets/images/Logo.svg" alt="Logo">
+            <img v-show="!logoBlack" class="pt-3" src="@/assets/images/Logo.svg" alt="Logo">
+            <img v-show="logoBlack" class="pt-3" src="@/assets/images/logo-sort.svg" alt="Logo">
           </nuxt-link>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -26,9 +27,9 @@
             Hent dit skodkit
           </nuxt-link>
           <span class="inline-flex">
-            <a href="#signup" class="whitespace-no-wrap font-sans inline-flex items-center justify-center px-12 py-6 text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
+            <nuxt-link :to="{ path: '/',hash:'#signup'}" class="whitespace-no-wrap font-sans inline-flex items-center justify-center px-12 py-6 text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
               Tilmeld dig
-            </a>
+            </nuxt-link>
           </span>
         </div>
       </div>
@@ -154,6 +155,17 @@
 <script>
 
 export default {
+  data () {
+    return {
+      logoBlack: false
+    }
+  },
+  mounted () {
+    if (this.$route.fullPath === '/privatlivspolitik' || this.$route.fullPath === '/cookiepolitik') {
+      console.log(this.$route.fullPath)
+      this.logoBlack = true
+    }
+  },
   head () {
     return {
       meta: [

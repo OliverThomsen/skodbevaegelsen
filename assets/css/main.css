@@ -16,6 +16,9 @@
 .skod-bg {
   background-image: url('~assets/images/skod-bg.jpg');
 }
+.skod-bg {
+  background-image: url('~assets/images/hero.jpg');
+}
 #suntornado {
     opacity: 0.1;
 }
