@@ -10,14 +10,14 @@
 .orange-curve {
   background-image: url('~assets/images/orange-curve.svg');
 }
+.hero-bg {
+  background-image: url('~assets/images/hero.jpg');
+}
 .black-curve {
   background-image: url('~assets/images/black-curve.svg');
 }
 .skod-bg {
   background-image: url('~assets/images/skod-bg.jpg');
-}
-.hero-bg {
-  background-image: url('~assets/images/hero.jpg');
 }
 #suntornado {
     opacity: 0.1;
