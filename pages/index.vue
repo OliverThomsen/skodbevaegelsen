@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="h-screen skod-bg bg-no-repeat bg-cover">
+    <div class="h-screen hero-bg bg-no-repeat bg-cover">
       <Header class="hvid" />
       <Hero />
     </div>
