@@ -33,13 +33,13 @@
 </template>
 <script>
 export default {
+  async fetch () {
+    this.team = await this.$content('team').fetch()
+  },
   data () {
     return {
       team: []
     }
-  },
-  async fetch () {
-    this.team = await this.$content('team').fetch()
   }
 }
 </script>

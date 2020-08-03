@@ -31,13 +31,13 @@
 </template>
 <script>
 export default {
+  async fetch () {
+    this.steps = await this.$content('kom-i-gang').sortBy('position').fetch()
+  },
   data () {
     return {
       steps: []
     }
-  },
-  async fetch () {
-    this.steps = await this.$content('kom-i-gang').sortBy('position').fetch()
   }
 }
 </script>
