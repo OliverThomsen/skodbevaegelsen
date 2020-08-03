@@ -21,8 +21,8 @@
             <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
               <div class="lg:grid lg:grid-cols-3 lg:gap-12">
                 <div v-for="fact in facts" :key="fact.slug" class="mt-10 lg:mt-0 first:mt-0">
-                  <div class="flex items-center mx-auto justify-center h-56 w-56  rounded-md bg-hh-primary text-white">
-                    <img :src="fact.image" alt="">
+                  <div class="flex items-center mx-auto justify-center h-56 w-56 rounded-md text-white">
+                    <img :src="fact.image" alt="" class="h-full">
                   </div>
                   <div class="mt-5">
                     <h5 :class="[{'text-white': virksomheder}, {'text-hh-black': !virksomheder}]" class="text-center font-serif text-2xl leading-9 font-medium">
@@ -30,9 +30,6 @@
                     </h5>
                   </div>
                 </div>
-                <img src="@/static/billede1.svg" class="h-64">
-                <img src="@/static/billede2.svg" class="h-64">
-                <img src="@/static/billede3.svg" class="h-64">
               </div>
             </div>
           </div>
