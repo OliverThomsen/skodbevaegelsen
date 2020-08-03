@@ -1,5 +1,5 @@
 ---
 position: 1
-image: https://img.bhs4.com/bb/0/bb0b03a3d48171d87d977d842dd3478780900e63_large.jpg
+image: https://kassebil.dk/_nuxt/img/c975be1.svg
 ---
 Skod bliver smidt hvert år

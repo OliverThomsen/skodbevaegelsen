@@ -185,7 +185,7 @@
           </div>
           <div class="col-span-1 flex justify-center py-8 px-8">
             <a href="https://garage.coop/" target="_blank">
-              <img class="h-14 mt-2" src="@/assets/images/coop-logo.svg" alt="coop logo">
+              <img class="h-12 md:h-14 mt-2" src="@/assets/images/coop-logo.svg" alt="coop logo">
             </a>
           </div>
           <div class="col-span-1 flex justify-center py-8 px-8">

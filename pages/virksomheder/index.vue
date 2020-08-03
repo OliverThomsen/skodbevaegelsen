@@ -46,10 +46,10 @@
       <div class="relative max-w-screen-md mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
         <ul class="grid grid-cols-1 gap-10">
           <li v-for="member of team" :key="member.slug" class="col-span-1 bg-hh-gray rounded-lg shadow-lg">
-            <div class="w-full flex items-center justify-between p-6 space-x-6">
-              <div class="flex-1 truncate">
+            <div class="w-full flex flex-wrap items-center justify-between p-6 space-x-6">
+              <div class="flex-1 truncate text-center md:text-left">
                 <div class="flex items-center space-x-3">
-                  <h3 class="text-white text-3xl leading-9 font-bold font-sans">
+                  <h3 class="text-white mx-auto md:ml-0 text-3xl leading-9 font-bold font-sans">
                     {{ member.navn }}
                   </h3>
                 </div>
@@ -57,7 +57,9 @@
                   {{ member.titel }}
                 </p>
               </div>
-              <img class="w-32 h-32 bg-gray-300 rounded-full flex-shrink-0" :src="member.image" alt="">
+              <div class="w-full order-first md:order-last md:w-1/4 mb-4 md:mb-0">
+                <img class="w-32 h-32 bg-gray-300 rounded-full flex-shrink-0 mx-auto m" :src="member.image" alt="">
+              </div>
             </div>
             <div class="border-t border-hh-white">
               <div class="-mt-px flex p-6">

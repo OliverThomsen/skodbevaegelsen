@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="h-screen forside-bg bg-no-repeat bg-cover">
+    <div class="lg:h-screen forside-bg bg-no-repeat bg-cover">
       <Header class="hvid" />
       <Hero />
     </div>
@@ -10,7 +10,7 @@
       <div :class="[{'bg-hh-black': virksomheder}, {'pattern bg-no-repeat bg-cover bg-hh-orange': !virksomheder}]" class="flex items-center justify-center py-32">
         <div class="">
           <div class="relative">
-            <div class="tracking-wide text-center font-sans text-5xl leading-12 font-bold tracking-tight text-white sm:text-6xl sm:leading-14">
+            <div class="tracking-wide text-center font-sans text-4xl md:text-5xl leading-12 font-bold tracking-tight text-white sm:text-6xl sm:leading-14">
               Sammen om et
               <br>
               skodfrit Danmark
@@ -30,6 +30,9 @@
                     </h5>
                   </div>
                 </div>
+                <img src="@/static/billede1.svg" class="h-64">
+                <img src="@/static/billede2.svg" class="h-64">
+                <img src="@/static/billede3.svg" class="h-64">
               </div>
             </div>
           </div>
@@ -54,14 +57,14 @@
               </p>
             </div>
 
-            <div class="mt-10 -mx-4 relative lg:mt-0">
-              <div class="rounded-lg overflow-hidden shadow-lg ml-8">
+            <div class="mt-10 relative lg:mt-0">
+              <div class="rounded-lg overflow-hidden xl:shadow-lg">
                 <iframe
                   src="https://player.vimeo.com/video/440985646?dnt=true"
                   height="315"
                   frameborder="0"
                   allow="autoplay;"
-                  class="w-full"
+                  class="w-full max-w-full"
                   fullscreen
                   allowfullscreen
                 />
@@ -80,7 +83,7 @@
           <dl class="md:grid md:grid-cols-2 md:gap-8">
             <div>
               <div>
-                <h3 class="text-6xl leading-14 font-semibold text-white tracking-wide">
+                <h3 class="text-4xl leading-12 md:text-6xl md:leading-14 font-semibold text-white tracking-wide">
                   Sådan kommer <br>
                   <span class="text-hh-orange font-black">du</span> i gang:
                 </h3>
@@ -106,16 +109,16 @@
     <!-- Get started slut -->
     <!-- Who are we start -->
     <div class="bg-hh-black overflow-hidden pt-12 pb-16 sm:pt-16 sm:pb-20 lg:pt-20 lg:pb-28">
-      <h3 class="text-center text-6xl leading-14 font-semibold text-white tracking-wide">
+      <h3 class="text-center text-4xl leading-12 md:text-6xl md:leading-14 font-semibold text-white tracking-wide">
         Hvem er vi
       </h3>
       <div class="relative max-w-screen-md mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
         <ul class="grid grid-cols-1 gap-10">
           <li v-for="member of team" :key="member.slug" class="col-span-1 bg-hh-gray rounded-lg shadow-lg">
-            <div class="w-full flex items-center justify-between p-6 space-x-6">
-              <div class="flex-1 truncate">
+            <div class="w-full flex flex-wrap items-center justify-between p-6 space-x-6">
+              <div class="flex-1 truncate text-center md:text-left">
                 <div class="flex items-center space-x-3">
-                  <h3 class="text-white text-3xl leading-9 font-bold font-sans">
+                  <h3 class="text-white mx-auto md:ml-0 text-3xl leading-9 font-bold font-sans">
                     {{ member.navn }}
                   </h3>
                 </div>
@@ -123,7 +126,9 @@
                   {{ member.titel }}
                 </p>
               </div>
-              <img class="w-32 h-32 bg-gray-300 rounded-full flex-shrink-0" :src="member.image" alt="">
+              <div class="w-full order-first md:order-last md:w-1/4 mb-4 md:mb-0">
+                <img class="w-32 h-32 bg-gray-300 rounded-full flex-shrink-0 mx-auto m" :src="member.image" alt="">
+              </div>
             </div>
             <div class="border-t border-hh-white">
               <div class="-mt-px flex p-6">

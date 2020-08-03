@@ -21,11 +21,12 @@
             to="/virksomheder"
             class="menu-items hover:text-hh-orange px-12 py-6 font-sans text-base leading-6 font-bold focus:outline-none transition ease-in-out duration-150"
           >
-            Virksomheder
+            Virksomhedstilmelding
           </nuxt-link>
+          <!--
           <nuxt-link to="hent-dit-skodkit" class="menu-items hover:text-hh-orange px-12 py-6 font-sans text-base leading-6 font-bold focus:outline-none transition ease-in-out duration-150">
             Hent dit skodkit
-          </nuxt-link>
+          </nuxt-link> -->
           <span class="inline-flex">
             <nuxt-link :to="{ path: '/',hash:'#signup'}" class="whitespace-no-wrap font-sans inline-flex items-center justify-center px-12 py-6 text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
               Tilmeld dig
@@ -71,6 +72,7 @@
                       Virksomhedstilmelding
                     </div>
                   </nuxt-link>
+                  <!--
                   <nuxt-link to="/hent-dit-skodkit" class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                     <svg class="flex-shrink-0 h-6 w-6 text-hh-orange" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
@@ -78,7 +80,7 @@
                     <div class="text-base leading-6 font-medium text-gray-900">
                       Hent dit skodkit
                     </div>
-                  </nuxt-link>
+                  </nuxt-link> -->
                 </nav>
               </div>
             </div>
