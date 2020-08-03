@@ -11,7 +11,7 @@
           <span class="text-white font-bold">gør en stor forskel</span>
         </h2>
         <div class="pt-16">
-          <a href="#signup" class="group tracking-wider font-serif rounded-full leading-3 uppercase bg-white px-6 py-4 lg:px-12 lg:py-6 text-hh-orange font-bold lg:text-xl">
+          <nuxt-link :to="{ path: '/',hash:'#signup'}" class="group tracking-wider font-serif rounded-full leading-3 uppercase bg-white px-6 py-4 lg:px-12 lg:py-6 text-hh-orange font-bold lg:text-xl">
             Tilmeld
             <svg
               class="h-4 w-4 inline -mt-1 transform group-hover:translate-x-1 transition ease-in-out duration-300"
@@ -22,7 +22,7 @@
               viewBox="0 0 24 24"
               stroke="currentColor"
             ><path d="M9 5l7 7-7 7" /></svg>
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </div>

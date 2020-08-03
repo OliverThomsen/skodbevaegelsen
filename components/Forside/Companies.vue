@@ -20,15 +20,6 @@
             </p>
             <nuxt-link to="/virksomheder" type="button" class="group mt-4 tracking-wider font-serif rounded-full leading-4 uppercase bg-hh-orange px-4 py-2 md:px-12 md:py-4 text-white font-bold text-base">
               <span class="hidden md:inline-block">Gå til</span> virksomhedstilmelding
-              <svg
-                class="h-4 w-4 inline -mt-1 transform group-hover:translate-x-1 transition ease-in-out duration-300"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="4"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              ><path d="M9 5l7 7-7 7" /></svg>
             </nuxt-link>
           </div>
           <div class="mt-12 max-w-xl mx-auto">
