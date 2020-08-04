@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="h-screen skod-bg bg-no-repeat bg-cover">
+    <div class="lg:h-screen skod-bg bg-no-repeat bg-cover">
       <Header class="hvid" />
       <HeroVirksomhed />
     </div>
@@ -11,7 +11,7 @@
       <div :class="[{'bg-hh-black': virksomheder}, {'pattern bg-no-repeat bg-cover bg-hh-orange': !virksomheder}]" class="flex items-center justify-center py-32">
         <div class="">
           <div class="relative">
-            <div class="tracking-wide text-center font-sans text-5xl leading-12 font-bold tracking-tight text-white sm:text-6xl sm:leading-14">
+            <div class="tracking-wide text-center font-sans text-4xl md:text-5xl leading-12 font-bold tracking-tight text-white sm:text-6xl sm:leading-14">
               Sammen om et
               <br>
               skodfrit Danmark
@@ -22,8 +22,8 @@
             <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
               <div class="lg:grid lg:grid-cols-3 lg:gap-12">
                 <div v-for="fact in facts" :key="fact.slug" class="mt-10 lg:mt-0 first:mt-0">
-                  <div class="flex items-center mx-auto justify-center h-56 w-56  rounded-md bg-hh-primary text-white">
-                    <img :src="fact.image" alt="">
+                  <div class="flex items-center mx-auto justify-center h-56 w-56 rounded-md text-white">
+                    <img :src="fact.image" alt="" class="h-full">
                   </div>
                   <div class="mt-5">
                     <h5 :class="[{'text-white': virksomheder}, {'text-hh-black': !virksomheder}]" class="text-center font-serif text-2xl leading-9 font-medium">
@@ -40,7 +40,7 @@
     <!-- Facts slut -->
     <!-- Who are we start -->
     <div class="bg-hh-black overflow-hidden pt-12 pb-16 sm:pt-16 sm:pb-20 lg:pt-20 lg:pb-28">
-      <h3 class="text-center text-6xl leading-14 font-semibold text-white tracking-wide">
+      <h3 class="text-center text-4xl leading-12 md:text-6xl md:leading-14 font-semibold text-white tracking-wide">
         Hvem er vi
       </h3>
       <div class="relative max-w-screen-md mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
