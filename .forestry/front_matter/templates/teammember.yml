@@ -11,5 +11,3 @@ fields:
 - type: textarea
   name: image
   label: image
-pages:
-- content/team/mads.md
