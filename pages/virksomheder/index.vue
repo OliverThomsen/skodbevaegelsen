@@ -21,7 +21,7 @@
           <div class="mt-24">
             <div class="max-w-xl mx-auto px-4 sm:px-6 lg:max-w-screen-xl lg:px-8">
               <div class="lg:grid lg:grid-cols-3 lg:gap-12">
-                <div v-for="fact in facts" :key="fact.slug" class="mt-10 lg:mt-0 first:mt-0">
+                <div v-for="fact in factsvirksomheder" :key="fact.slug" class="mt-10 lg:mt-0 first:mt-0">
                   <div class="flex items-center mx-auto justify-center h-56 w-56 rounded-md text-white">
                     <img :src="fact.image" alt="" class="h-full">
                   </div>
@@ -80,11 +80,11 @@
 <script>
 export default {
   async asyncData ({ $content }) {
-    const facts = await $content('facts').sortBy('position').fetch()
+    const factsvirksomheder = await $content('factsvirksomhed').sortBy('position').fetch()
     const team = await $content('team').fetch()
 
     return {
-      facts, team
+      factsvirksomheder, team
     }
   },
   data () {
@@ -93,7 +93,7 @@ export default {
     }
   },
   mounted () {
-    if (this.$route.fullPath === '/virksomheder') {
+    if (this.$route.fullPath === '/virksomheder' || this.$route.fullPath === '/virksomheder#signupcompany') {
       this.virksomheder = true
     }
   },

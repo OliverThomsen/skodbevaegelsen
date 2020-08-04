@@ -161,7 +161,7 @@ export default {
     }
   },
   mounted () {
-    if (this.$route.fullPath === '/virksomheder') {
+    if (this.$route.fullPath === '/virksomheder' || this.$route.fullPath === '/virksomheder#signupcompany') {
       this.virksomheder = true
     }
   },

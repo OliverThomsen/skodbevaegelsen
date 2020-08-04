@@ -2,10 +2,7 @@
   <main class="pt-14 pb-28 md:pt-10 lg:py-0 relative flex justify-center items-center mt-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 lg:mt-64 xl:mt-80">
     <div class="">
       <div class="text-center md:mx-auto lg:text-left">
-        <div class="tracking-wide font-serif text-white text-lg mb-8">
-          Danmarks største skodkampagne
-        </div>
-        <span class="tracking-wide text-white text-2xl font-bold bg-hh-orange p-4">
+        <span class="tracking-wide text-white text-2xl font-bold bg-hh-orange p-2">
           Virksomhedstilmelding
         </span>
         <h2 class="mt-6 leading-none text-4xl lg:text-6xl font-sans tracking-tight text-white">

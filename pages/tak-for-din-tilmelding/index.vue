@@ -58,6 +58,23 @@
           <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
             Vi glæder os til at samle skod sammen.
           </p>
+          <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+            Du vil snarest modtage en e-mail, med nærmere instrukser omkring Danmarks største skodkampagne.
+          </p>
+          <div class="mt-12">
+            <nuxt-link to="/" class="group tracking-wider font-serif rounded-full leading-3 uppercase bg-hh-orange px-6 py-4 lg:px-12 lg:py-6 text-white font-bold lg:text-xl">
+              Tilbage til siden
+              <svg
+                class="h-4 w-4 inline -mt-1 transform group-hover:translate-x-1 transition ease-in-out duration-300"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="4"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              ><path d="M9 5l7 7-7 7" /></svg>
+            </nuxt-link>
+          </div>
         </div>
       </main>
     </div>

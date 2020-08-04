@@ -19,7 +19,7 @@
               af cigaretskodder fra den 14-19 september.
             </p>
             <div class="mt-6">
-              <nuxt-link to="/virksomheder" class="group tracking-wider font-serif rounded-full leading-4 uppercase bg-hh-orange px-4 py-2 md:px-12 md:py-4 text-white font-bold text-base">
+              <nuxt-link :to="{ path: '/virksomheder',hash:'#signupcompany'}" class="group tracking-wider font-serif rounded-full leading-4 uppercase bg-hh-orange px-4 py-2 md:px-12 md:py-4 text-white font-bold text-base">
                 <span class="hidden md:inline-block">Gå til</span> virksomhedstilmelding
                 <svg
                   class="h-4 w-4 inline -mt-1 transform group-hover:translate-x-1 transition ease-in-out duration-300"

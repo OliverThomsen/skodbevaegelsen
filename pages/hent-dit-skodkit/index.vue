@@ -1,8 +1,8 @@
 <template>
   <main>
-    <div class="h-screen skod-bg bg-no-repeat bg-cover">
-      <Header />
-      <HeroVirksomhed />
+    <div class="lg:h-screen bg-hh-black bg-no-repeat bg-cover">
+      <Header class="hvid" />
+      <HeroSkodkit />
     </div>
     <CompaniesVirksomhed />
     <FactsVirksomhed />
