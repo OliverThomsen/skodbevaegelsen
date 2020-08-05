@@ -19,7 +19,11 @@
                   <img :src="fact.image" alt="">
                 </div>
                 <div class="mt-5">
+<<<<<<< HEAD
                   <h5 :class="[{'text-white': virksomheder}, {'text-white': !virksomheder}]" class="text-center font-sans text-base leading-9">
+=======
+                  <h5 :class="[{'text-white': virksomheder}, {'text-hh-black': !virksomheder}]" class="text-center font-serif text-2xl leading-9 font-medium">
+>>>>>>> parent of d5fc0b0... Rasmus fact tekst + farve ændring
                     <nuxt-content :document="fact" />
                   </h5>
                 </div>
