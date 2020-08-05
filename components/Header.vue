@@ -23,9 +23,10 @@
           >
             Virksomhedstilmelding
           </nuxt-link>
+          <!--
           <nuxt-link to="hent-dit-skodkit" class="whitespace-no-wrap menu-items hover:text-hh-orange py-6 font-sans text-base leading-6 font-bold focus:outline-none transition ease-in-out duration-150">
             Hent dit skodkit
-          </nuxt-link>
+          </nuxt-link> -->
           <span class="inline-flex">
             <nuxt-link :to="{ path: '/',hash:'#signup'}" class="whitespace-no-wrap font-sans inline-flex items-center justify-center px-12 py-6 text-lg leading-6 font-medium text-white bg-hh-orange hover:bg-white hover:text-hh-orange focus:outline-none transition ease-in-out duration-150">
               Tilmeld dig
@@ -78,6 +79,7 @@
                       Virksomhedstilmelding
                     </div>
                   </nuxt-link>
+                  <!--
                   <nuxt-link to="/hent-dit-skodkit" class="-m-3 p-3 flex items-center space-x-3 rounded-md hover:bg-gray-50 transition ease-in-out duration-150">
                     <svg
                       class="flex-shrink-0 h-6 w-6 text-hh-orange"
@@ -91,7 +93,7 @@
                     <div class="text-base leading-6 font-medium text-gray-900">
                       Hent dit skodkit
                     </div>
-                  </nuxt-link>
+                  </nuxt-link> -->
                 </nav>
               </div>
             </div>
