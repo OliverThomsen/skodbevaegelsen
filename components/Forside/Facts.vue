@@ -19,7 +19,7 @@
                   <img :src="fact.image" alt="">
                 </div>
                 <div class="mt-5">
-                  <h5 :class="[{'text-white': virksomheder}, {'text-hh-black': !virksomheder}]" class="text-center font-serif text-2xl leading-9 font-medium">
+                  <h5 :class="[{'text-white': virksomheder}, {'text-white': !virksomheder}]" class="text-center font-serif text-2xl leading-9 font-medium">
                     <nuxt-content :document="fact" />
                   </h5>
                 </div>
