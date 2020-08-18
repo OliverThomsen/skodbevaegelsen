@@ -195,7 +195,7 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://skodbevægelsen.dk/meta.jpg'
+            'https://skodbevægelsen.dk/meta'
         },
         { hid: 'og:url', property: 'og:url', content: 'https://skodbevægelsen.dk' }
       ]
