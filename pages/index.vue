@@ -25,7 +25,7 @@
                     <img :src="fact.image" alt="" class="h-full">
                   </div>
                   <div class="mt-5">
-                    <h5 :class="[{'text-white': virksomheder}, {'text-hh-black': !virksomheder}]" class="text-center font-serif text-2xl leading-9 font-medium">
+                    <h5 class="text-white text-center font-serif text-2xl leading-9 font-medium">
                       <nuxt-content :document="fact" />
                     </h5>
                   </div>
@@ -148,7 +148,7 @@ export default {
   async asyncData ({ $content }) {
     const facts = await $content('facts').sortBy('position').fetch()
     const bodil = await $content('meet-bodil').fetch()
-    const steps = await $content('kom-i-gang').sortBy('position').fetch()
+    const steps = await $content('kom-i-gang').where({ active: true }).sortBy('position').fetch()
     const team = await $content('team').fetch()
 
     return {
@@ -195,7 +195,7 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://happyhelper.dk/cmsuploads//2020/08/Skod-3.jpg'
+            'https://skodbevægelsen.dk/meta.jpg'
         },
         { hid: 'og:url', property: 'og:url', content: 'https://skodbevægelsen.dk' }
       ]

@@ -32,7 +32,7 @@
 <script>
 export default {
   async fetch () {
-    this.steps = await this.$content('kom-i-gang').sortBy('position').fetch()
+    this.steps = await this.$content('kom-i-gang').where({ active: true }).sortBy('position').fetch()
   },
   data () {
     return {

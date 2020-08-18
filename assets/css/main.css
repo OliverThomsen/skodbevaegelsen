@@ -16,6 +16,9 @@
 .black-curve {
   background-image: url('~assets/images/black-curve.svg');
 }
+.black-spine {
+  background-image: url('~assets/images/blackcurve.svg');
+}
 .skod-bg {
   background-image: url('~assets/images/skod-bg.jpg');
 }

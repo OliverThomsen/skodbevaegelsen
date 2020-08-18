@@ -14,11 +14,13 @@
                     Virksomhedstilmelding
                   </nuxt-link>
                 </li>
+                <!--
                 <li class="mt-4">
                   <nuxt-link to="/hent-dit-skodkit" class="text-base leading-6 text-gray-300 hover:text-white">
                     Hent dit skodkit
                   </nuxt-link>
                 </li>
+                -->
                 <li class="mt-4">
                   <nuxt-link :to="{ path: '/',hash:'#signup'}" class="text-base leading-6 text-gray-300 hover:text-white">
                     Tilmeld dig skodindsamlingen

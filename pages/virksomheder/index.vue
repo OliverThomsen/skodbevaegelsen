@@ -26,7 +26,7 @@
                     <img :src="fact.image" alt="" class="h-full">
                   </div>
                   <div class="mt-5">
-                    <h5 :class="[{'text-white': virksomheder}, {'text-hh-black': !virksomheder}]" class="text-center font-serif text-2xl leading-9 font-medium">
+                    <h5 class="text-white text-center font-serif text-2xl leading-9 font-medium">
                       <nuxt-content :document="fact" />
                     </h5>
                   </div>
@@ -127,7 +127,7 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://happyhelper.dk/cmsuploads//2020/08/Skod_virk-4.jpg'
+            'https://skodbevægelsen.dk/metavirk.jpg'
         },
         { hid: 'og:url', property: 'og:url', content: 'https://skodbevægelsen.dk/virksomheder' }
       ]
