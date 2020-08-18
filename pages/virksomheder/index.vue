@@ -127,9 +127,9 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           content:
-            'https://xn--skodbevgelsen-9fb.dk/metavirk.jpg'
+            'https://skodbevægelsen.dk/metavirk.jpg'
         },
-        { hid: 'og:url', property: 'og:url', content: 'https://xn--skodbevgelsen-9fb.dk/virksomheder' }
+        { hid: 'og:url', property: 'og:url', content: 'https://skodbevægelsen.dk/virksomheder' }
       ]
     }
   }
