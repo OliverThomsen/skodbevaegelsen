@@ -149,7 +149,7 @@ export default {
     const facts = await $content('facts').sortBy('position').fetch()
     const bodil = await $content('meet-bodil').fetch()
     const steps = await $content('kom-i-gang').where({ active: true }).sortBy('position').fetch()
-    const team = await $content('team').fetch()
+    const team = await $content('team').sortBy('position').fetch()
 
     return {
       facts, bodil, steps, team
