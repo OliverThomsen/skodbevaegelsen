@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="-mx-10 black-spine bg-no-repeat bg-cover pb-56" />
+    <div class="black-spine bg-no-repeat bg-cover pb-56" />
     <div class="flex items-center justify-center pb-32 pt-20">
       <div class="w-full relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
         <div class="pb-12 pt-6 text-center text-4xl leading-12 font-semibold font-sans text-white tracking-tight sm:text-6xl sm:leading-14">
