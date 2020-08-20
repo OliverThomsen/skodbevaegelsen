@@ -10,7 +10,7 @@
             Målet er indsamle så mange cigaretskodder som muligt, og både privatpersoner og virksomheder kan deltage.
           </p>
           <p class="mt-3 max-w-2xl mx-auto text-xl font-bold leading-7 text-gray-500 sm:mt-4">
-            Plexiglassene er opstillet fra d. 21 august til d. 19 september.
+            Plexiglassene er opstillet fra d. 24 august til d. 19 september.
           </p>
         </div>
         <div class="md:flex content-center justify-center flex-wrap p-4">

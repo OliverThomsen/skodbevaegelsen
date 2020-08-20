@@ -26,7 +26,7 @@
                     <img :src="fact.image" alt="" class="h-full">
                   </div>
                   <div class="mt-5">
-                    <h5 class="text-white text-center font-serif text-2xl leading-9 font-medium">
+                    <h5 class="text-white text-center font-sansserif text-xl leading-7 font-medium">
                       <nuxt-content :document="fact" />
                     </h5>
                   </div>
@@ -63,7 +63,7 @@
             </div>
             <div class="border-t border-hh-white">
               <div class="-mt-px flex p-6">
-                <p class="text-gray-300 text-lg leading-5">
+                <p class="text-gray-300 text-sm leading-5">
                   <nuxt-content :document="member" />
                 </p>
               </div>

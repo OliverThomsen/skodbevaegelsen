@@ -15,7 +15,7 @@
               <p class="mt-4 text-lg leading-6 text-gray-500">
                 Tilmeld din virksomhed herunder og vær' med til indsamling
                 <br>
-                af cigaretskodder fra den 21. august til den 19. september.
+                af cigaretskodder fra den 24. august til den 19. september.
               </p>
             </div>
             <div class="mt-12 max-w-xl mx-auto">

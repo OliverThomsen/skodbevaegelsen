@@ -10,7 +10,7 @@
             Målet er indsamle så mange cigaretskodder som muligt, og både privatpersoner og virksomheder kan deltage.
           </p>
           <p class="mt-3 max-w-2xl mx-auto text-xl font-bold leading-7 text-white sm:mt-4">
-            Plexiglassene er opstillet fra d. 21 august til d. 19 september.
+            Plexiglassene er opstillet fra d. 24 august til d. 19 september.
           </p>
         </div>
         <div class="md:flex content-center justify-center flex-wrap p-4">
@@ -52,7 +52,7 @@
               <p class="mt-4 text-lg leading-6 text-gray-500">
                 Tilmeld dig herunder og vær' med til indsamling
                 <br>
-                af cigaretskodder fra den 21. august til den 19. september.
+                af cigaretskodder fra den 24. august til den 19. september.
               </p>
               <div class="mt-6">
                 <nuxt-link :to="{ path: '/virksomheder',hash:'#signupcompany'}" class="group tracking-wider font-serif rounded-full leading-4 uppercase bg-hh-orange px-4 py-2 md:px-12 md:py-4 text-white font-bold text-base">
