@@ -1,6 +1,7 @@
 <template>
   <main>
-    <div class="lg:h-screen forside-bg bg-no-repeat bg-cover">
+    <HeroVideo />
+    <div class="lg:h-screen">
       <Header class="hvid" />
       <Hero />
     </div>
