@@ -3,4 +3,8 @@ title: Islands Brygge
 img: https://skodbevægelsen.dk/islandsbrygge.jpg
 ---
 
-<!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
+Langs vandet op ad en lygtepæl du et skodrør. 
+Skodrøret er placeret ud for det store grønne område.
+<br>
+<h3 class="text-4xl leading-12 md:text-base md:leading-14 font-extrabold text-hh-orange tracking-wide">
+<a href="https://goo.gl/maps/rTDUCD6x2arJzka39" target="_blank">Se placering her</a>
