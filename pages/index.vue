@@ -58,7 +58,7 @@
             <div class="mt-10 relative lg:mt-0">
               <div class="rounded-lg overflow-hidden xl:shadow-lg">
                 <iframe
-                  src="https://player.vimeo.com/video/440985646?dnt=true"
+                  src="https://player.vimeo.com/video/451448854?dnt=true"
                   height="315"
                   frameborder="0"
                   allow="autoplay;"
