@@ -1,5 +1,5 @@
 <template>
-  <div id="signup" class="bg-hh-orange pattern2 bg-no-repeat bg-cover">
+  <div id="steder" class="bg-hh-orange pattern2 bg-no-repeat bg-cover">
     <div class="relative pt-16 px-4 sm:px-6 lg:pt-24 lg:px-8">
       <div class="relative max-w-7xl mx-auto">
         <div class="text-center">
@@ -37,7 +37,7 @@
     <div class="black-spine bg-no-repeat bg-cover pb-56" />
     <div class="flex items-center justify-center pb-32 pt-20">
       <div class="w-full relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
-        <div class="pb-12 pt-6 text-center text-4xl leading-12 font-semibold font-sans text-white tracking-tight sm:text-6xl sm:leading-14">
+        <div id="signup" class="pb-12 pt-6 text-center text-4xl leading-12 font-semibold font-sans text-white tracking-tight sm:text-6xl sm:leading-14">
           Danmarks største skodkampagne
         </div>
         <div class="bg-white flex overflow-hidden shadow-2xl rounded-lg py-12">
