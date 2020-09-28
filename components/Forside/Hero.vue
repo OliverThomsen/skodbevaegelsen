@@ -23,7 +23,7 @@
               stroke="currentColor"
             ><path d="M9 5l7 7-7 7" /></svg>
           </nuxt-link>
-         <!-- <a href="https://skodbevægelsen.dk/program.pdf" class="group tracking-wider sm:invisible md:invisible lg:visible xl:visible font-serif rounded-full leading-3 uppercase border-white border-solid bg-hh-orange px-6 py-4 lg:px-12 lg:py-6 text-white font-bold lg:text-xl">
+          <!-- <a href="https://skodbevægelsen.dk/program.pdf" class="group tracking-wider sm:invisible md:invisible lg:visible xl:visible font-serif rounded-full leading-3 uppercase border-white border-solid bg-hh-orange px-6 py-4 lg:px-12 lg:py-6 text-white font-bold lg:text-xl">
             Hent program
             <svg
             class="h-6 w-6 inline -mt-1 transform group-hover:translate-y-1 transition ease-in-out duration-300"

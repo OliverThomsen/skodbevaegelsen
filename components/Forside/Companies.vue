@@ -240,6 +240,9 @@
 
 <script>
 export default {
+  async fetch () {
+    this.placements = await this.$content('/placements').fetch()
+  },
   data () {
     return {
       name: null,
@@ -252,9 +255,6 @@ export default {
       samtykke: false,
       placements: []
     }
-  },
-  async fetch () {
-    this.placements = await this.$content('/placements').fetch()
   },
   methods: {
     checkName (e) {
